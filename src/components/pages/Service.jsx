@@ -1,17 +1,6 @@
 'use client'
 import Image from "next/image"
-
-const SERVICES = [
-    {title: "Hukum Pajak"},
-    {title: "Hukum Ketenagakerjaan"},
-    {title: "Hukum Keluarga"},
-    {title: "Kepailitan & Insolvensi"},
-    {title: "Hukum Perseroan"},
-    {title: "Agraria Pertanahan"},
-    {title: "Perizinan & Lisensi"},
-    {title: "Pembangunan & Real Estate"},
-    {title: "Logistik & Pengangkutan"},
-]
+import { SERVICES } from "@/lib/data"
 
 export default function Service() {
     return (
@@ -27,10 +16,10 @@ export default function Service() {
                         maupun luar pengadilan      
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                     {
                     SERVICES.map((item, idx) =>(
-                        <div key={idx} className="flex h-32 justify-start items-end space-y-2 bg-sekunder py-4 px-6 md:p-6 transform transition-transform duration-300 hover:-translate-y-2 hover:bg-primer">
+                        <div key={idx} className="flex h-32 justify-start items-end space-y-2 bg-sekunder py-4 px-4 md:p-6 transform transition-transform duration-300 hover:-translate-y-2 hover:bg-primer">
                             <h1 className="text-md text-white font-style font-medium">{item.title}</h1>
                         </div>
                     ))

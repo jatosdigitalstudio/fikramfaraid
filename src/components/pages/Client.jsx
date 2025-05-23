@@ -14,7 +14,7 @@ export default function Client() {
                             alt="FF LAW" 
                         />
                     </div>
-                    <div className="flex flex-col w-full mb-8 left-0 md:px-24 md:py-12">
+                    <div className="flex flex-col w-full mb-8 left-0 p-6 md:px-24 md:py-12">
                         <h6 className="text-primer text-sm tracking-widest md:text-md mb-4 uppercase">
                             Riwayat pekerjaan       
                         </h6>

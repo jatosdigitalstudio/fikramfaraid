@@ -1,3 +1,15 @@
+export const SERVICES = [
+    {title: "Hukum Pajak"},
+    {title: "Hukum Ketenagakerjaan"},
+    {title: "Hukum Keluarga"},
+    {title: "Kepailitan & Insolvensi"},
+    {title: "Hukum Perseroan"},
+    {title: "Agraria Pertanahan"},
+    {title: "Perizinan & Lisensi"},
+    {title: "Pembangunan & Real Estate"},
+    {title: "Logistik & Pengangkutan"},
+]
+
 
 export const FEATURE = [
     {

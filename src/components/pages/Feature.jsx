@@ -6,7 +6,7 @@ export default function Feature() {
   return (
     <section className="relative flex items-center py-32 z-50">
         <div className="container max-w-7xl mx-auto">
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="relative text-left text-white px-6">
                     <h6 className="text-primer text-sm tracking-widest md:text-md mb-4 uppercase">
                         layanan hukum         
@@ -21,11 +21,11 @@ export default function Feature() {
                         alt="FF LAW" 
                     />
                 </div>
-                <div className="flex flex-col space-y-2">
+                <div className="flex flex-col p-6 space-y-2">
                     {
                         FEATURE.map((item,idx) => (
                             <div className="flex flex-row justify-center items-center gap-4 bg-primer py-4 px-6 rounded-full" key={idx}>
-                                <div className="flex-shrink-0 w-20 h-20 rounded-full bg-[#D6A340] flex items-center justify-center mr-2">
+                                <div className="flex-shrink-0 w-12 h-12 md:w-20 md:h-20 rounded-full bg-[#D6A340] flex items-center justify-center mr-2">
                                     <Image
                                         src={item.icon || "/Icon-fflaw.png"}
                                         alt="FFLAW"

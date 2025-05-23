@@ -3,11 +3,11 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <section className="flex justify-center items-center py-32" id="about">
+        <section className="flex justify-center items-center px-6 py-32" id="about">
             <div className="container max-w-7xl mx-auto">
                 {/* <div className="grid grid-cols-1 md:grid-cols-2 place-items-center "> */}
                 <div className="realtive flex flex-col md:flex-row bg-abumuda justify-center items-center">
-                    <div className="flex flex-col w-full mb-8 left-0 md:px-24 md:py-20">
+                    <div className="flex flex-col w-full mb-8 left-0 p-6 md:px-24 md:py-20">
                         <h6 className="text-primer text-sm tracking-widest md:text-md mb-4 uppercase">
                             tentang kami         
                         </h6>

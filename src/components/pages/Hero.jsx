@@ -26,7 +26,7 @@ export default function Hero() {
                     </p>
                 </div>
                 <div className="flex flex-col md:flex-row mx-auto mt-6 justify-start gap-2">
-                    <Link href="/#about" scroll className="bg-sekunder px-6 py-3 rounded-full">
+                    <Link href="/#inquiry" scroll className="bg-sekunder px-6 py-3 rounded-full">
                         Konsultasi Sekarang
                     </Link>
                     <Link href="/#about" scroll className="px-4 py-3 rounded-full">

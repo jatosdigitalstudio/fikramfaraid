@@ -4,7 +4,7 @@ import { TEAM } from "@/lib/data"
 
 export default function Team() {
     return (
-        <section className="relative bg-primer py-24" id="team">
+        <section className="relative bg-primer py-28" id="team">
             <div className="mx-auto max-w-7xl z-30 p-6" >
                 <div className="flex flex-col justify-center items-center text-center mx-auto max-w-2xl  mb-4 ">
                     <h1 className="text-3xl font-style md:text-4xl lg:text-6xl text-white font-medium ">

@@ -13,9 +13,9 @@ export default function Quotes() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
             <div className="absolute inset-0 bg-black/60" />
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className=""></div>
-                <div className="relative bg-sekunder text-left text-white px-6 md:p-24 ">
+                <div className="relative bg-sekunder text-left text-white p-6 md:p-24 ">
                     <h6 className="text-cream text-sm tracking-widest md:text-md mb-4 uppercase">
                         filosofi         
                     </h6>
