@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-text: var(--font-text);
+  --font-style: var(--font-style);
+  --color-primer: #603814;
+  --color-sekunder: #A3782A;
+  --color-tersier: #D69136;
+  --color-abumuda: #E6E6E6;
+}
+
+html {
+  font-family: var(--font-text);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
